@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport"content="width=device-width,initial-scale=1"/>
-    <title>Fabio</title>
+    <title>Fabio Ott | Programmierer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -12,30 +12,33 @@
     <body>
     <div id="Vorstellung">
     <h2>Hi, ich bin</h2>
-        <h1><b>Fabio</b></h1>
+        <h1><b>Fabio Ott</b></h1>
     <h4>Game-/ App-/ Web-Developer</h4>
-        <button ><b><a   id="buttonProjekte" href="#Meine-Projekte">MEINE PROJEKTE</a></b></button>
-        <button ><b><a   id="buttonProjekte" href="kontakt.html">KONTAKT</a></b></button>
+        <!-- <button ><b><a   id="buttonProjekte" href="#Meine-Projekte">Meine Projekte</a></b></button> -->
+        <button ><b><a   id="buttonProjekte" href="#kontakt">Kontakt</a></b></button>
         </div>
         
     <div id="slideshow">
         
-        <!-- Slideshow container -->
 <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    
-    <img src="Group%204.png" style="width:100%">
+    <img src="Dashboard.png" width="100%" height="auto" >
+    <!-- <img src="Group%204.png" style="width:100%"> -->
     
   </div>
 
   <div class="mySlides fade">
    
-    <img src="Group%203.png" style="width:100%">
+    <img src="Music Player Design.png" width="100%" height="auto" >
     
   </div>
-
+  <div class="mySlides fade">
+    <img src="Mobile.png" width="100%" height="auto" >
+    <!-- <img src="Group%203.png" style="width:100%"> -->
+    
+  </div>
+ 
   
 
   <!-- Next and previous buttons -->
@@ -48,15 +51,57 @@
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
  
 </div>
         
         </div>  
         
         
+
         <div id="Meine-Projekte">
-        <h1 id="ueberschrift"> Meine Projekte</h1>
-        <a>Playstore Apps und Spiele</a>
+          
+        <h1 id="ueberschrift"> Ausbildung</h1>
+        <br>
+        <h3>Edith Stein Realschule Schillingsfürst</h3>
+        
+        <p>2023 - Realschulabschluss</p>
+        <br>
+        <h3>Staatliche Berufsschule I Ansbach</h3>
+        <p>2023 bis 2026 - Ausbildung zum Fachinformatiker</p>
+         <br><br><br><br>
+         
+        <h1 id="ueberschrift"> Kenntnisse</h1>
+        <div class="kenntnisse">
+        <img src="logos/html.png" height="100px">
+        <img src="logos/css.svg" height="100px">
+        <img src="logos/js.webp" height="100px">
+        <img src="logos/ts.png" height="100px">
+        <img src="logos/angular.png" height="100px">
+        <img src="logos/cpp.avif" height="100px">
+        <img src="logos/python.png" height="100px">
+        <img src="logos/image-removebg-preview (15).png" height="100px">
+        <img src="logos/apex.png" height="100px">
+        <img src="logos/qlik.svg" height="100px">
+        <br><br><br><br>
+        <h1 id="ueberschrift"> Sprachen</h1>
+        <br>
+        <h3>Deutsch</h3>
+        <p>Muttersprache</p>
+        <br>
+        <h3>Englisch</h3>
+        <p>Fließend</p>
+        <br><br><br><br>
+        <h1 id="ueberschrift"> Kontakt</h1>
+        <br>
+        <h3>E-Mail</h3>
+        <a id="kontakt" href= "mailto: Kontakt@fabioott.de">Kontakt@fabioott.de</a>
+        <br>
+        
+      </div>
+      
+
+        <!-- <a>Playstore Apps und Spiele</a>
         <a></a>
         </div>
         
@@ -73,17 +118,94 @@
             
            <div id="BuildIt"> <a>Build It</a><h1></h1>
         <a>Ein Aufbauspiel, in dem man seine eigene Stadt aufbauen und Fahrzeuge fahren lassen kann.</a></div>
-            
+             -->
         </div>
-        
+        <div id="socialmedia">
+          <div id="logo"><img src="NEW LOGO.png" width="50px">
+          <p>fab.io_yt</p></div>
+          <div id="icons">
+          <div> 
+            <a href="https://tiktok.com/@fab.io_yt" target="_blank"><img src="tiktok.png" width="30px" >
+          <p>>70k</p></a>
+          </div>
+        <div>
+          <a href="https://www.youtube.com/@fab.io_yt" target="_blank"><img src="youtube-app-white-icon.webp" width="30px" >
+          <p>1.2k</p></a>
+        </div>
+      </div>
+        </div>
         
         
     </body>
 </html>
 <style>
+  a {
+    text-decoration: none;
+  }
+.kenntnisse img{
+  margin-right: 0.9%;
+  margin-top:1%;
+}
+  #logo, #icons {
+    display: flex;
+    margin: 0px;
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 0px;
+    border-radius: 15px;
+  }
+
+  #logo p{
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  #icons p{
+    margin-left: -5px;
+  }
+  #icons img{
+    margin-right: 15px;
+    
+  }
+  #icons a {
+    text-decoration: none;
+  } 
+   #socialmedia {
+    margin-top: 15%;
+      margin-bottom: 50px;
+      width: 50%;
+      height: 75px;
+      border: 2px solid white;
+      border-radius: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+    #socialmedia img {
+      margin-top: 10px;
+      margin-left: 10px;
+      
+    }
     @media (max-width: 1080px) {
 
+   .kenntnisse img {
+    height: 30px;
+   }
+
+   #socialmedia {
+      margin-bottom: 50px;
+      width: 90%;
+      height: 75px;
+      border: 2px solid white;
+      border-radius: 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+    #socialmedia img {
+      margin-top: 10px;
+      margin-left: 10px;
       
+    }
 
 
     *{
@@ -99,16 +221,18 @@
         margin-bottom: 15%;
     }
     button{
-        background-color: #EA3A60;
+        background-color: #ffffff;
         border: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         border-radius: 4px;
+        color: black;
     }
     #buttonProjekte{
-        background-color: #EA3A60;
+        background-color: #ffffff;
         text-decoration: none;
+        color: black;
         
     }
     
@@ -266,23 +390,34 @@
         margin-top: 25%;
     }
     button{
-        background-color: #EA3A60;
+        background-color: #ffffff;
         border: none;
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         border-radius: 4px;
     }
+    button:hover {
+      background-color: #ff5c26;
+    }
     #buttonProjekte{
-        background-color: #EA3A60;
+        background-color: #ffffff;
         text-decoration: none;
+        color: #212121;
+        
+    }
+    #buttonProjekte:hover{
+        background-color: #ff5c26;
+        text-decoration: none;
+        color: white;
         
     }
     
     
     #Meine-Projekte{
         margin-left: 10%; 
-        margin-top: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
     #ueberschrift {
         
@@ -312,8 +447,8 @@
     
 
       #slideshow{
-        margin-right:-25%;
-        margin-top: -20%;
+        margin-left:15%;
+        margin-top: -15%;
         }
 
 
@@ -356,7 +491,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #ff5c26;
 }
 
 /* Caption text */
@@ -392,7 +527,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ff5c26;
 }
 
 /* Fading animation */
