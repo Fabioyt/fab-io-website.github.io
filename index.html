@@ -16,16 +16,16 @@
         <h1><b>Fabio Ott</b></h1>
     <h4>Game-/ App-/ Web-Developer</h4>
         <!-- <button ><b><a   id="buttonProjekte" href="#Meine-Projekte">Meine Projekte</a></b></button> -->
-        <button ><b><a   id="buttonProjekte" href="#kontakt">Kontakt</a></b></button>
+        <a  href=#kontakt ><button  ><b>Kontakt</b></button></a>
         </div>
         
-    <div id="slideshow">
+    <!-- <div id="slideshow">
         
 <div class="slideshow-container">
 
   <div class="mySlides fade">
     <img src="Dashboard.png" width="100%" height="auto" >
-    <!-- <img src="Group%204.png" style="width:100%"> -->
+    
     
   </div>
 
@@ -36,19 +36,18 @@
   </div>
   <div class="mySlides fade">
     <img src="Mobile.png" width="100%" height="auto" >
-    <!-- <img src="Group%203.png" style="width:100%"> -->
+    
     
   </div>
  
   
 
-  <!-- Next and previous buttons -->
+  
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
 
-<!-- The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
@@ -56,34 +55,42 @@
  
 </div>
         
-        </div>  
+        </div>   -->
         
         
 
         <div id="Meine-Projekte">
           
         <h1 id="ueberschrift"> Ausbildung</h1>
-        <br>
-        <h3>Edith Stein Realschule Schillingsfürst</h3>
+        <br><br>
+        <!-- <h3>Edith Stein Realschule Schillingsfürst</h3> -->
         
-        <p>2023 - Realschulabschluss</p>
+        <h3>2023 - Realschulabschluss</h3>
         <br>
-        <h3>Staatliche Berufsschule I Ansbach</h3>
-        <p>2023 bis 2026 - Ausbildung zum Fachinformatiker</p>
+        <!-- <h3>Staatliche Berufsschule I Ansbach</h3> -->
+        <h3>2023 bis 2026 - Ausbildung zum Fachinformatiker</h3>
          <br><br><br><br>
          
         <h1 id="ueberschrift"> Kenntnisse</h1>
         <div class="kenntnisse">
-        <img src="logos/html.png" height="100px">
-        <img src="logos/css.svg" height="100px">
-        <img src="logos/js.webp" height="100px">
-        <img src="logos/ts.png" height="100px">
-        <img src="logos/angular.png" height="100px">
-        <img src="logos/cpp.avif" height="100px">
-        <img src="logos/python.png" height="100px">
-        <img src="logos/image-removebg-preview (15).png" height="100px">
-        <img src="logos/apex.png" height="100px">
-        <img src="logos/qlik.svg" height="100px">
+          <div class="logos">
+            <div class="logos-parent">
+              <img class="logo" src="logos/html.png" height="100px" title="HTML"/>
+              <img class="logo" src="logos/css.svg" height="100px" title="CSS"/>
+              <img class="logo" src="logos/js.webp" height="100px"title="JavaScript" />
+              <img class="logo" src="logos/ts.png" height="100px" title="TypeScript"/>
+              <img class="logo" src="logos/angular.png" height="100px" title="Angular"/>
+              <img class="logo" src="logos/cpp.avif" height="100px" title="C++"/>
+              <img class="logo" src="logos/python.png" height="100px" title="Python"/>
+              <img class="logo" src="logos/image-removebg-preview (15).png" height="100px" title="Salesforce"/>
+              <img class="logo" src="logos/apex.png" height="100px" title="Salesforce Apex"/>
+              <img class="logo" src="logos/qlik.svg" height="100px" title="Qlik Sense"/>
+              <img class="logo" src="logos/Gdevelop.png" height="100px" title="Gdevelop 5"/>
+              <img class="logo" src="logos/Unity.png" height="100px" title="Unity 3d"/>
+            </div>
+          </div>
+          
+          </div>
         <br><br><br><br>
         <h1 id="ueberschrift"> Sprachen</h1>
         <br>
@@ -140,6 +147,65 @@
     </body>
 </html>
 <style>
+
+/* *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  overflow: hidden;
+} */
+.logos {
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  position: relative;
+  
+}
+
+.logos-parent {
+  display: inline-flex;
+}
+
+.logo {
+  margin: 0 20px;
+  height: 100px;
+}
+
+
+
+
+
+/* .logos-parent {
+  position: relative;
+  width: 80vw;
+  height: 120px;
+  overflow-x: hidden;
+  margin-bottom: 200px;
+  margin-left: 10%;
+}
+
+.logos {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 10%;
+  animation: primary 20s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+} */
+
   a {
     text-decoration: none;
   }
@@ -209,7 +275,7 @@
     }
 
 
-    *{
+    body{
         background-color: #212121;
         margin: auto;
         font-family: 'Roboto', sans-serif;
@@ -218,7 +284,7 @@
     }
     #Vorstellung{
         margin-left: 10%;   
-        margin-top: 25%;
+        margin-top: 5%;
         margin-bottom: 15%;
     }
     button{
@@ -231,7 +297,7 @@
         color: black;
     }
     #buttonProjekte{
-        background-color: #ffffff;
+        /* background-color: #ffffff; */
         text-decoration: none;
         color: black;
         
@@ -240,7 +306,7 @@
     
     #Meine-Projekte{
         margin-left: 10%; 
-        margin-top: 20%;
+        margin-top: 5%
     }
     #ueberschrift {
         
@@ -379,16 +445,27 @@
     
     
     @media ( min-width:1081px) {
-    *{
+    * {
+      margin: auto;
+      font-family: 'Roboto', sans-serif;
+    }
+    body{
         background-color: #212121;
-        margin: auto;
-        font-family: 'Roboto', sans-serif;
+        
+        
         color:#FFFFFF;
         
     }
     #Vorstellung{
         margin-left: 10%;   
-        margin-top: 25%;
+        margin-top: 5%; 
+    }
+    a  {
+      text-decoration: none;
+      color: white;
+    }
+    button:hover {
+      cursor: pointer;
     }
     button{
         background-color: #ffffff;
@@ -399,18 +476,18 @@
         border-radius: 4px;
     }
     button:hover {
-      background-color: #ff5c26;
+      background-color: #c3c3c3;
     }
     #buttonProjekte{
-        background-color: #ffffff;
+        background-color: transparent;
         text-decoration: none;
         color: #212121;
         
     }
     #buttonProjekte:hover{
-        background-color: #ff5c26;
+        background-color: transparent;
         text-decoration: none;
-        color: white;
+        color: #ffffff;
         
     }
     
@@ -549,6 +626,36 @@
     
 </style>
 <script>
+  window.onload = function() {
+  const logosParent = document.querySelector('.logos-parent');
+  const logos = document.querySelectorAll('.logo');
+  
+  // Dupliziere alle Logos für den nahtlosen Effekt
+  logos.forEach(logo => {
+    const clone = logo.cloneNode(true);
+    logosParent.appendChild(clone);
+  });
+
+  let scrollAmount = 0;
+
+  function scrollLogos() {
+    scrollAmount -= 0.5; // Scrollgeschwindigkeit
+
+    // Wenn der gesamte erste Satz von Logos gescrollt wurde, setze zurück
+    if (Math.abs(scrollAmount) >= logosParent.scrollWidth / 2) {
+      scrollAmount = 0;
+    }
+
+    logosParent.style.transform = `translateX(${scrollAmount}px)`;
+
+    requestAnimationFrame(scrollLogos); // Ständige Bewegung
+  }
+
+  scrollLogos(); // Starte die Bewegung
+};
+
+</script>
+<script>
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -577,6 +684,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
     
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8E0QGR0VT6"></script>
