@@ -1,0 +1,59 @@
+<!-- <a>Playstore Apps und Spiele</a>
+        <a></a>
+        </div>
+        
+        <div id="playstore">
+            <a href="https://play.google.com/store/apps/details?id=click.clicker.gameclicker&gl=DE" target="_blank"><img src="Group%209.png" ></a>
+            <a href="https://play.google.com/store/apps/details?id=com.Catch.PumpkinThe&gl=DE" target="_blank"><img  src="Group%2010.png"></a>
+            <a href="https://play.google.com/store/apps/details?id=appinventor.ai_fabiolucaott.Download_Time_Calculator&gl=DE" target="_blank"><img  src="Group%2011.png"></a>
+            <a href="https://play.google.com/store/apps/details?id=appinventor.ai_fabiolucaott.create_QR_Code&gl=DE" target="_blank"><img  src="Group%2012.png"></a>
+        </div>
+        <div id="andereProjekte">
+        <a>andere Projekte</a>
+        <h1></h1>
+            <img src="image%205.png" width="50%">
+            
+           <div id="BuildIt"> <a>Build It</a><h1></h1>
+        <a>Ein Aufbauspiel, in dem man seine eigene Stadt aufbauen und Fahrzeuge fahren lassen kann.</a></div>
+             -->
+
+              
+    <!-- <div id="slideshow">
+        
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="Dashboard.png" width="100%" height="auto" >
+    
+    
+  </div>
+
+  <div class="mySlides fade">
+   
+    <img src="Music Player Design.png" width="100%" height="auto" >
+    
+  </div>
+  <div class="mySlides fade">
+    <img src="Mobile.png" width="100%" height="auto" >
+    
+    
+  </div>
+ 
+  
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+ 
+</div>
+        
+        </div>   -->
+        
+        
